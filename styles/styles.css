@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    color: #730702;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-flow: row nowrap;
+    /*background-color: #730702;*/
+}
+
+.sidebar{
+    background-color: white;
+    border-right: 0.05rem solid #730702;
+}
+
+.sb-logo{
+    width: 100%;
+    height: auto;
+    padding: 0 20% 0 20%;
+    margin-bottom: 10%;
+}
+
+.sb-item{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    border: 0.05rem solid transparent;
+    border-right: none;
+}
+
+.sb-item:hover{
+    cursor: pointer;
+    border: 0.05rem solid #730702;
+    border-right: none;
+}
+
+.sb-item-ico{
+    height: 2.75vw;
+    width: auto;
+    padding: 0.5rem;
+    padding-left: 1.5vw;
+}
+
+.sb-item-name{
+    display: flex;
+    align-items: center;
+    font-size: 2.5vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: calc(100% - 4rem);
+    width: 400rem;
+    margin: 2rem;
+    background-image: url("../assets/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.main-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    color: #730702;
+    border: 0.05rem solid #730702;
+    width: 10%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.main-btn:hover{
+    border: 0.05rem solid transparent;
+    background-color: #730702;
+    color: white;
+}
+
+.back{
+    position: relative;
+    left: 0;
+}
+
+.fwrd{
+    position: relative;
+    right: 0;
+}
