@@ -58,3 +58,20 @@ setInterval(() => {
   showSlide();
   console.clear()
 }, 5000);
+
+
+// lógica do menu
+
+menuOpen = false;
+
+function openMenu() {
+  if(menuOpen == false){
+    document.getElementsByClassName("hdr-items-start")[0].style.display = "flex";
+    menuOpen = true;
+  }
+  else{
+    document.getElementsByClassName("hdr-items-start")[0].style.display = "none";
+    menuOpen = false;
+  }
+}
+
