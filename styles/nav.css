@@ -1,0 +1,14 @@
+.nav-link{
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+    width: fit-content;
+    height: 50%;
+}
+
+.nav-img{
+    display: block;
+    height: 55%;
+    width: auto;
+    filter: invert(1);
+}

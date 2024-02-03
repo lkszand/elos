@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,115 +7,103 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/nav.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/rollbar.css">
+    <link rel="stylesheet" href="./styles/viewport.css">
     <link rel="shortcut icon" href="assets/elos-min.png" type="image/x-icon">
 </head>
 <body>
-    <!-- Primeiro bloco -->
-    <div class="social">
-        <a href="http://" class="soc-link">
-            <img src="./assets/dolar.png" alt="Ícone para doar para o projeto" class="soc-ico">
+    <nav>
+        <a href="https://api.whatsapp.com/send/?phone=%2B5521991285250&text=Ol%C3%A1,%20poderia%20me%20ajudar%20com%20informa%C3%A7%C3%B5es%20sobre%20o%20Elos?&type=phone_number&app_absent=0" target="_blank" class="nav-link">
+            <img src="./assets/whatsapp.png" alt="Ícone para enviar mensagem" class="nav-img">
         </a>
-        <a href="https://www.facebook.com/ElosEduca" target="_blank" class="soc-link">
-            <img src="./assets/facebook.png" alt="Ícone para acessar página do Facebook" class="soc-ico">
+        <a href="https://www.facebook.com/ElosEduca" target="_blank" class="nav-link">
+            <img src="./assets/facebook.png" alt="Ícone para acessar página do Facebook" class="nav-img">
         </a>
-        <a href="mailto:eloseducacao.ofc@gmail.com" target="_blank" class="soc-link">
-            <img src="./assets/mail.png" alt="Ícone para enviar e-mail" class="soc-ico">
+        <a href="mailto:eloseducacao.ofc@gmail.com" target="_blank" class="nav-link">
+            <img src="./assets/mail.png" alt="Ícone para enviar e-mail" class="nav-img">
         </a>
-        <a href="https://www.instagram.com/eloseducacao/" target="_blank" class="soc-link">
-            <img src="./assets/insta.png" alt="Ícone para acessar página do Instagram" class="soc-ico">
+        <a href="https://www.instagram.com/eloseducacao/" target="_blank" class="nav-link">
+            <img src="./assets/insta.png" alt="Ícone para acessar página do Instagram" class="nav-img">
         </a>
-        <div class="soc-link"></div>
-    </div>
-    <!-- Segundo bloco -->
-    <div class="header">
+    </nav>
+    <header>
         <img src="./assets/elos.png" alt="Logo Elos Educação" class="hdr-logo">
-        <div class="hdr-items-start">
-            <a href="http://" class="hdr-items-start-item">Conheça o Elos</a>
-            <a href="http://" class="hdr-items-start-item">Unidades</a>
-            <a href="http://" class="hdr-items-start-item">Galeria</a>
+        <div class="hdr-links">
+            <a href="" class="hdr-item" target="_blank">Processo Seletivo</a>
+            <a href="" class="hdr-item" target="_blank">Concursos</a>
+            <a href="" class="hdr-item" target="_blank">Ajude o Projeto</a>
+            <div class="hdr-item hdr-quinze">15 anos</div>
         </div>
-        <div class="hdr-items">
-            <div class="hdr-item" onclick="openMenu()">Início</div>
-            <div class="hdr-item">Processo Seletivo</div>
-            <div class="hdr-item">Concursos</div>
-            <div class="hdr-item">Ajude o Projeto</div>
-            <div class="hdr-item quinze-anos">15 anos</div>
-        </div>
-        
+        <img src="./assets/interface.png" alt="hamburguer menu" class="hdr-sdw" onclick="openMenu()">
+    </header>
+    <div class="hdr-links-smart">
+        <a href="" class="hdr-item">Processo Seletivo</a>
+        <a href="" class="hdr-item">Concursos</a>
+        <a href="" class="hdr-item">Ajude o Projeto</a>
     </div>
-    <!-- Terceiro bloco -->
-    <div class="main">
-        <div class="main-left">
-            <div class="main-left-title">PROJETO SOCIAL EDUCACIONAL</div>
-            <div class="main-left-desc">Curso voluntário, gerido por estudantes no Rio de Janeiro, totalmente gratuito e sem fins lucrativos. Nosso foco está na promoção da educação popular, direcionada a alunos de escolas municipais.</div>
-            <a href="http://" class="main-left-btn">SAIBA MAIS</a>
-        </div>
-        <div class="main-right">
-            <img src="./assets/banner.jpg" alt="" class="main-right-img">
-        </div>
-    </div>
-    <!-- Quarto bloco -->
-    <div class="discover">
-        <div class="dis-left">
-            <div class="dis-left-title">CONHEÇA O ELOS EDUCAÇÃO</div>
-            <div class="dis-left-desc">O Elos Educação, anteriormente conhecido como PCS Educação/Projeto Construindo o Saber, está ativo desde 2009, fruto de uma colaboração com o NEAd da PUC-Rio. Em 2015, ampliamos nosso projeto com a inauguração de um segundo núcleo, em parceria com a EMAp da FGV. Atualmente, o Elos possui duas unidades, na PUC e FGV, oferecendo aulas presenciais aos sábados. Somos um curso voluntário, gerido por estudantes no Rio de Janeiro, totalmente gratuito e sem fins lucrativos. Nosso foco está na promoção da educação popular, direcionada a alunos de escolas municipais interessados nos concursos de ensino médio e técnico do Rio de Janeiro. Além das tradicionais aulas de Português e Matemática, oferecemos Acompanhamento Pedagógico individualizado, Simulados, aulas de Partilha de Conhecimento Social e Monitoria.</div>
-        </div>
-        <div class="dis-right">
-            <div class="dis-right-desc">No Elos, buscamos ativamente práticas pedagógicas alternativas, valorizando a horizontalidade nas relações entre alunos, educadores, coordenadores, assistentes e voluntários. Contamos com a participação significativa de jovens secundaristas ex-alunos, que retornam ao Elos não apenas para contribuir socialmente, mas também para enriquecer suas próprias formações críticas e encontrar apoio em seus novos colégios. Nossa gestão é democrática, dando aos alunos uma participação direta em nossa organização por meio de assembleias.</div>
-            <img src="./assets/banner.jpg" alt="" class="dis-right-img">
-        </div>
-    </div>
-    <!-- Quinto bloco -->
-    <div class="place">
-        <div class="plc-title">NOSSAS UNIDADES</div>
-        <div class="plc-cards">
-            <div class="plc-card">
-                <img src="./assets/banner.jpg" alt="" class="plc-card-img">
-                <div class="plc-card-title">Pontifícia Universidade Católica</div>
-                <div class="plc-card-desc">Em parceria com a NEAd</div>
-                <a href="https://maps.app.goo.gl/JUxJ89sUEnW3wTnk7" target="_blank" class="plc-card-link">Veja no MAPA</a>
+    <main>
+        <section id="first">
+            <div class="fst-title">
+                <h1 class="fst-title-top">Projeto Social Educacional</h1>
+                <h2 class="fst-title-bottom">Curso voluntário, gerido por estudantes no Rio de Janeiro, totalmente gratuito e sem fins lucrativos. Nosso foco está na promoção da educação popular, direcionada a alunos de escolas municipais.</h2>
+                <a href="http://" class="fst-title-button">Saiba Mais</a>
             </div>
-            <div class="plc-card">
-                <img src="./assets/banner.jpg" alt="" class="plc-card-img">
-                <div class="plc-card-title">Fundação Getúlio Vargas</div>
-                <div class="plc-card-desc">Em parceria com a EMAp</div>
-                <a href="https://maps.app.goo.gl/mHRfZHToBcAV5ZFY7" target="_blank" class="plc-card-link">Veja no MAPA</a>
+            <img src="./assets/banner.jpg" alt="banner" class="fst-img">
+        </section>
+        <section id="second">
+            <div class="snd-left">
+                <h2 class="snd-left-top">Conheça o Elos Educação</h2>
+                <h3 class="snd-left-bottom">O Elos Educação, anteriormente conhecido como PCS Educação/Projeto Construindo o Saber, está ativo desde 2009, fruto de uma colaboração com o NEAd da PUC-Rio. Em 2014, ampliamos nosso projeto com a inauguração de um segundo núcleo, em parceria com a EMAp da FGV. Atualmente, o Elos possui <b> duas unidades</b>, na <b>PUC e FGV</b>, oferecendo aulas presenciais aos sábados. Somos um curso voluntário, gerido por estudantes no Rio de Janeiro, totalmente <b>gratuito</b> e sem fins lucrativos. Nosso foco está na promoção da educação popular, direcionada a alunos de escolas de baixa renda interessados na <b>preparação para concursos de ingresso em escolas do ensino médio</b> regular e técnico do Rio de Janeiro. Além das tradicionais aulas de Português e Matemática, oferecemos Acompanhamento Pedagógico individualizado, Simulados, aulas de Partilha de Conhecimento Social e Monitoria.</h3>
             </div>
-        </div>
-    </div>
-    <!--Sexto bloco-->
-    <div class="gallery">
-        <div class="carousel">
-            <div class="slides">
-                <div class="slide">
-                    <img src="./assets/banner.jpg" alt="slide img" class="slide-img">
-                </div>
-                <div class="slide">
-                    <img src="./assets/banner.jpg" alt="slide img" class="slide-img">
-                </div>
-                <div class="slide">
-                    <img src="./assets/banner.jpg" alt="slide img" class="slide-img">
-                </div>
-                <div class="slide">
-                    <img src="./assets/banner.jpg" alt="slide img" class="slide-img">
-                </div>
-                <div class="slide">
-                    <img src="./assets/banner.jpg" alt="slide img" class="slide-img">
-                </div>
-                <div class="slide">
-                    <img src="./assets/insta.png" alt="slide img" class="slide-img">
+            <img src="./assets/banner.jpg" alt="" class="snd-left-img">
+        </section>
+        <section id="third">
+            <h2 class="trd-title">Nossas Unidades</h2>
+            <div class="trd-card-puc">
+                <div class="trd-card-title">Pontifícia Universidade Católica</div>
+                <div class="trd-card-desc">Em parceria com o NEAd</div>
+                <a href="http://" class="trd-card-button">Veja no MAPA</a>
+            </div>
+            <div class="trd-card-fgv">
+                <div class="trd-card-title">Fundação Getúlio Vargas</div>
+                <div class="trd-card-desc">Em parceria com o EMAp</div>
+                <a href="http://" class="trd-card-button">Veja no MAPA</a>
+            </div>
+        </section>
+        <section id="fourth">
+            <h2 class="fth-title">Galeria de Memórias</h2>
+            <div class="fth-gallery">
+                <div class="slides">
+                    <div class="slide">
+                        <img src="./assets/galer1.jpg" alt="slide img" class="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/galer2.jpg" alt="slide img" class="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/galer3.jpg" alt="slide img" class="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/galer4.jpg" alt="slide img" class="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/galer5.jpg" alt="slide img" class="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/galer6.jpg" alt="slide img" class="slide-img">
+                    </div>
                 </div>
             </div>
-            <button class="prev-btn"><</button>
-            <button class="next-btn">></button>
-          </div>
-          <div class="glr-left">
-            <div class="glr-title">GALERIA DE MEMÓRIAS</div>
-            <div class="glr-desc">Explore nossa galeria de fotos e reencontre a magia registrada durante momentos inesquecíveis!</div>
-            <a href="" class="glr-btn">VEJA MAIS</a>
-        </div>
-    </div>
+            <div class="fth-right">
+                <h3 class="fth-desc">Explore nossa galeria de fotos e reencontre a magia registrada durante momentos inesquecíveis!</h3>
+                <a href="./gallery.html" class="fth-button">Veja Mais</a>
+            </div>
+        </section>
+    </main>
     <script src="./scripts/main.js"></script>
 </body>
 </html>

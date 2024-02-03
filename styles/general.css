@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    /*background-color: #730702;*/
+}
+
+nav{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 3.5rem;
+    background-color: #730702;
+    padding-right: 1rem;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 6rem;
+}
+
+main{
+    width: 100%;
+}
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}

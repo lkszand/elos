@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: black;
+    color: white;
+}
+
+#title{
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+    margin: 2.5rem 0 2.5rem 0;
+}
+
+.options{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 5rem;
+}
+
+.opt-card{
+    width: 33%;
+    padding: 2rem;
+    height: fit-content;
+}
+
+.opt-card-img{
+    width: 100%;
+    height: auto;
+}
+
+.opt-card-title{
+    text-align: center;
+}

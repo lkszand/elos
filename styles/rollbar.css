@@ -1,0 +1,24 @@
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: 12px;
+}
+  
+/* Cor da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: #730702;
+}
+  
+/* Cor do fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+    background-color: #ecf0f1;
+}
+  
+/* Borda da barra de rolagem */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #480501;
+}
+  
+/* Canto do bloco de área de exibição da barra de rolagem (apenas Firefox) */
+::-moz-scrollbar-corner {
+    background-color: #ecf0f1;
+}
