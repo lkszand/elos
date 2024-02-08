@@ -10,6 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="shortcut icon" href="assets/elos-min.png" type="image/x-icon" />
@@ -94,6 +98,16 @@
           <a href="http://" class="fst-title-button">Saiba Mais</a>
         </div>
         <img src="./assets/banner.jpg" alt="banner" class="fst-img" />
+      </section>
+      <section>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <!-- Adicione quantos slides você precisar -->
+          </div>
+        </div>
       </section>
       <section id="second">
         <div class="snd-left">
@@ -192,5 +206,14 @@
       </section>
     </main>
     <script src="./scripts/main.js"></script>
+    <!-- <script type="module" src="scripts/swipper.js"></script> -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const swiper = new Swiper(".swiper-container", {
+          loop: true,
+        });
+      });
+    </script>
   </body>
 </html>
