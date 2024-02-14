@@ -4,6 +4,7 @@
 @import url(./rollbar.css);
 @import url(./viewport.css);
 @import url(./general.css);
+@import url(./swipper.css);
 
 #first {
   display: flex;

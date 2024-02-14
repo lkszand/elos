@@ -39,7 +39,11 @@ main {
 }
 
 section {
+  max-width: 100vw;
+  min-height: 100px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
   width: 100%;
 }
