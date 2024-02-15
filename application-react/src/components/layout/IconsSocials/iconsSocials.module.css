@@ -1,0 +1,14 @@
+.container_iconsSocials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_iconsSocials li {
+  padding: 0 0.75rem;
+}
+
+.container_iconsSocials li svg {
+  font-size: 18px;
+  font-weight: 800;
+}
