@@ -1,0 +1,48 @@
+.bubble {
+  height: 550px;
+  width: 650px;
+  background-color: var(--white);
+  border-radius: 19% 81% 62% 38% / 30% 32% 68% 70%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation: bubbleAnimation 14s linear infinite alternate;
+}
+
+@keyframes bubbleAnimation {
+  0% {
+    border-radius: 9% 91% 65% 35% / 22% 41% 59% 78%;
+  }
+  20% {
+    border-radius: 42% 58% 53% 47% / 36% 33% 67% 64%;
+  }
+  40% {
+    border-radius: 60% 40% 60% 40% / 44% 45% 55% 56%;
+  }
+  60% {
+    border-radius: 58% 42% 34% 66% / 56% 66% 34% 44%;
+  }
+  80% {
+    border-radius: 41% 59% 55% 45% / 70% 58% 42% 30%;
+  }
+  100% {
+    border-radius: 24% 76% 63% 37% / 41% 37% 63% 59%;
+  }
+}
+/* 
+border-radius: 9% 91% 65% 35% / 22% 41% 59% 78%;
+  }
+  20% {
+    border-radius: 47% 53% 38% 62% / 44% 45% 55% 56%;
+  }
+  40% {
+    border-radius: 64% 36% 69% 31% / 35% 63% 37% 65%;
+  }
+  60% {
+    border-radius: 36% 64% 57% 43% / 35% 38% 62% 65%;
+  }
+  80% {
+    border-radius: 50% 50% 37% 63% / 45% 52% 48% 55%;
+  }
+  100% {
+    border-radius: 69% 31% 77% 23% / 30% 55% 45% 70%; */
