@@ -7,7 +7,7 @@
 }
 
 .list_items:hover li > a {
-  color: var(--gray);
+  color: #00000050;
 }
 
 .list_items li {
@@ -20,9 +20,10 @@
 }
 
 .list_items li > a:hover {
-  color: var(--red);
+  color: var(--red-weak);
   padding-bottom: 0.25rem;
   border-bottom: var(--border);
+  border-color: var(--red-weak);
   animation: widthBorder 1s linear;
 }
 

@@ -5,7 +5,18 @@
 }
 
 .container_iconsSocials li {
+  color: var(--black);
   padding: 0 0.75rem;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.container_iconsSocials:hover li {
+  color: #00000050;
+}
+
+.container_iconsSocials li:hover {
+  color: var(--red-weak);
 }
 
 .container_iconsSocials li svg {
