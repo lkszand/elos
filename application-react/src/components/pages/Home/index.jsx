@@ -1,9 +1,6 @@
-import Header from "../../layout/Header";
+import BannerHome from "../../home/BannerHome";
 import styles from "./home.module.css";
 
 export default function Home() {
-  return (
-    <Header />
-    // <BannerHome/>
-  );
+  return <BannerHome />;
 }

@@ -1,15 +1,12 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import Home from "./components/pages/Home";
+import { Outlet } from "react-router-dom";
+import Header from "./components/layout/Header";
 
 function App() {
   return (
     <>
-      <section>
-        <Home />
-      </section>
+      <Header />
+      <Outlet />
     </>
   );
 }
