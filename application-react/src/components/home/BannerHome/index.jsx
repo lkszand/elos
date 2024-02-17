@@ -1,37 +1,29 @@
 import styles from "./bannerHome.module.css";
+import Pulse from "../../layout/Pulse";
+import ContentInfo from "../ContentInfo";
+
+// Import Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
-import img from "../../../assets/puc.jpg";
-// Import Swiper styles
+import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-
-// import "./styles.css";
-
-// import required modules
-import { Navigation, Pagination } from "swiper/modules";
+import BoxInfo from "../../layout/BoxInfo";
+import BoxQuotes from "../../layout/BoxQuotes";
 
 export default function BannerHome() {
   return (
     <section className={styles.section_banner}>
       <div className={styles.contentCenter}>
         <div className={styles.slide}>
-          <div className={styles.infoBanner}>
-            <span>Elos</span>
-            <h1>Projeto Social Educacional</h1>
-            <p>
-              Curso voluntário, gerido por estudantes no Rio de Janeiro,
-              totalmente gratuito e sem fins lucrativos. Nosso foco está na
-              promoção da educação popular, direcionada a alunos de escolas
-              municipais.
-            </p>
-            <a href="/" className={styles.btn}>
-              Saiba Mais
-            </a>
-          </div>
-          <div>
-            <img src={img} alt="sss" width={200} />
+          <ContentInfo />
+          <div className={styles.contentPlay}>
+            <Pulse />
           </div>
         </div>
+      </div>
+      <div className={styles.contentBottom}>
+        <BoxInfo number={15} info="Anos de experiência" />
+        <BoxQuotes message="Programa Elos Educação de formação pré-técnica gratuita para colégios do ensino médio de excelência" />
       </div>
     </section>
   );
