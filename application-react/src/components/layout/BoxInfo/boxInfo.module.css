@@ -1,0 +1,18 @@
+.content_box {
+  display: inline-block;
+  color: var(--white);
+  background-color: var(--red-weak);
+  text-align: center;
+  padding: 1.25rem;
+}
+
+.content_box h2 {
+  font-size: 64px;
+}
+
+.content_box h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
