@@ -1,0 +1,76 @@
+.infoBanner {
+  color: var(--black);
+  max-width: 650px;
+  padding: 4rem 0;
+  position: relative;
+}
+
+.infoBanner > h5 {
+  text-transform: lowercase;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 400;
+  border-bottom: 2px solid var(--red-weak);
+  display: inline-block;
+  animation: animationHide 1s linear;
+  position: relative;
+}
+
+.infoBanner > h5 > span {
+  color: var(--red-weak);
+}
+
+.infoBanner h1 {
+  font-family: var(--secondary-font);
+  font-size: 75px;
+  font-weight: 600;
+  line-height: 1;
+  margin: 1.25rem 0;
+  animation: animationHide 1.4s ease-out;
+  position: relative;
+}
+
+.infoBanner h1 span {
+  color: var(--red-weak);
+}
+
+.infoBanner > p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  font-family: var(--secondary-font);
+  animation: animationHide 1.8s ease-out;
+  position: relative;
+}
+
+.btn {
+  font-family: var(--secondary-font);
+  background-color: var(--red-weak);
+  color: var(--white);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  box-shadow: 0 1px 5px #00000050;
+  transition: 0.4s;
+  position: relative;
+  animation: animationHide 2s ease-out;
+}
+
+.btn:hover {
+  color: var(--white);
+  background-color: var(--red);
+}
+
+.btn svg {
+  margin-left: 1rem;
+  transition: 0.25s;
+}
+
+.btn:hover svg {
+  transform: translateX(4px);
+}

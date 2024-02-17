@@ -1,0 +1,37 @@
+.list_items {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.list_items:hover li > a {
+  color: #00000050;
+}
+
+.list_items li {
+  padding: 0 0.25rem;
+}
+
+.list_items li > a {
+  color: var(--black);
+  transition: 0.25s;
+}
+
+.list_items li > a:hover {
+  color: var(--red-weak);
+  padding-bottom: 0.25rem;
+  border-bottom: var(--border);
+  border-color: var(--red-weak);
+  animation: widthBorder 1s linear;
+}
+
+@keyframes widthBorder {
+  0% {
+    border-: 0px;
+  }
+  0% {
+    border-width: 0;
+  }
+}

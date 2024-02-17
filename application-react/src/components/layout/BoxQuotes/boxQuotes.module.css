@@ -1,0 +1,40 @@
+.content_quotes {
+  color: var(--white);
+  background: url(../../../assets/mk8.png),
+    linear-gradient(var(--red-weak), var(--red-weak));
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  padding: 2rem;
+  max-width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.content_quotes span {
+  background-color: var(--white);
+  color: var(--red);
+  padding: 1rem;
+  font-size: 24px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -50%);
+}
+
+.content_quotes p {
+  font-size: 18px;
+  padding-left: 10px;
+  border-left: var(--border);
+  border-color: var(--cyan);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 0;
+}

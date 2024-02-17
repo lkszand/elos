@@ -1,0 +1,52 @@
+.section_banner {
+  background: linear-gradient(90deg, var(--beige) 50%, transparent 60%),
+    url("../../../assets/galer1.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.contentCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 6rem;
+}
+
+.slide {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1400px;
+  max-width: 100vw;
+}
+
+.contentPlay {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentBottom {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@keyframes animationHide {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  60% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
