@@ -13,11 +13,14 @@
   --main-font: "DM Sans", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --gray: #5a627d;
-  --red: #730702;
+  --red: #740504;
+  --red-weak: rgb(221, 42, 42);
   --white: #fff;
   --black: #000;
-  --red-weak: #fdbf5c;
+  --cyan: #71cbc4;
+  --beige: #fdbf5c;
   --border: 2px solid var(--red);
+  --bg-gray: #d7e8f8;
 }
 
 a {
