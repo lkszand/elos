@@ -13,8 +13,11 @@
   --main-font: "DM Sans", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --gray: #5a627d;
-  --red: #740504;
+  /* --red: #740504; */
+  --red: #790c00;
   --red-weak: rgb(221, 42, 42);
+  --pink: #c26258;
+  --pink-weak: #febea3;
   --white: #fff;
   --black: #000;
   --cyan: #71cbc4;
