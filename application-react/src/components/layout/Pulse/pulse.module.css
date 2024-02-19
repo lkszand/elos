@@ -1,6 +1,7 @@
 .pulse {
   padding: 2.75rem;
-  border: 1px solid var(--white);
+  /* border: 1px solid var(--red); */
+  background-color: var(--white);
   border-radius: 50%;
   display: inline-block;
   cursor: pointer;
@@ -9,8 +10,13 @@
 }
 
 .pulse svg {
-  color: var(--white);
+  color: var(--red);
   font-size: 32px;
+  transition: 0.25s;
+}
+
+.pulse:hover svg {
+  color: var(--red-weak);
 }
 
 @keyframes pulse {

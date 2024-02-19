@@ -1,11 +1,12 @@
 .bubble {
   height: 550px;
-  width: 650px;
+  width: 700px;
   background-color: var(--white);
   border-radius: 19% 81% 62% 38% / 30% 32% 68% 70%;
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   animation: bubbleAnimation 14s linear infinite alternate;
 }
 
