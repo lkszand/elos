@@ -1,4 +1,4 @@
-import styles from "./aboutHome.module.css";
+import styles from "./aboutTraining.module.css";
 import book from "../../../assets/pilha-de-livros.png";
 import test from "../../../assets/prova-de-impressao.png";
 import logo from "../../../assets/estudante_2.png";
@@ -6,7 +6,7 @@ import lampada from "../../../assets/lampada.png";
 import CardAboutHome from "../CardAboutHome";
 import { FaInstagram } from "react-icons/fa6";
 
-export default function AboutHome() {
+export default function AboutTraining() {
   return (
     <section className={styles.container_about_home}>
       <div className={styles.content_img}>
