@@ -1,17 +1,45 @@
 .section_banner {
-  background: linear-gradient(90deg, var(--beige) 50%, transparent 60%),
-    url("../../../assets/galer1.jpg");
+  background-image: linear-gradient(
+      90deg,
+      var(--pink-weak) 45%,
+      rgba(254, 190, 163, 0.5) 60%
+    ),
+    url("../../../assets/galer6.jpg");
+
+  background-image: linear-gradient(
+      90deg,
+      var(--pink-weak) 55%,
+      transparent 60%
+    ),
+    repeating-linear-gradient(
+      to right,
+      var(--pink-weak) 0,
+      var(--pink-weak) 1px,
+      transparent 1px,
+      transparent 3px
+    ),
+    url("../../../assets/galer6.jpg");
   background-position: right;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   position: relative;
+}
+
+.content_image {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.content_image img {
+  width: 100px;
 }
 
 .contentCenter {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4rem 6rem;
+  padding: 4rem 5rem;
 }
 
 .slide {
@@ -34,19 +62,4 @@
   align-items: stretch;
   justify-content: space-between;
   width: 100%;
-}
-
-@keyframes animationHide {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  60% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }

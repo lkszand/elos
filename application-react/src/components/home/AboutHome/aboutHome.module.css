@@ -1,0 +1,88 @@
+.container_about_home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 3rem;
+  background-color: var(--white);
+}
+
+.content_img {
+  flex: 1.5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content_img img {
+  width: 100%;
+  max-width: 470px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.content_info_about_home {
+  flex: 2;
+}
+
+.content_info_about_home > p {
+  font-style: italic;
+  font-size: 16px;
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+
+.content_info_about_home > p span {
+  border-bottom: 2px solid red;
+  color: var(--red-weak);
+}
+
+.content_info_about_home h2 {
+  font-family: var(--secondary-font);
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 3rem;
+}
+
+.content_cards_about_home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.content_contact_about {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+  border: 1px solid #00000020;
+  border-radius: 48px;
+}
+
+.content_contact_about > a {
+  color: var(--black);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.content_contact_about > a svg {
+  font-size: 24px;
+  margin-right: 1rem;
+  color: var(--red);
+}
+
+.content_contact_about > a span {
+  text-decoration: underline;
+  margin-left: 1rem;
+  transition: 0.25s;
+}
+
+.content_contact_about > a span:hover {
+  color: var(--red);
+}

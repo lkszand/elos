@@ -1,11 +1,25 @@
 .infoBanner {
   color: var(--black);
   max-width: 650px;
-  padding: 4rem 0;
+  padding: 6rem 0;
   position: relative;
 }
 
+.content_image {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.content_image > img {
+  width: 100px;
+  position: relative;
+  text-align: center;
+}
+
 .infoBanner > h5 {
+  color: white;
   text-transform: lowercase;
   font-style: italic;
   font-size: 16px;
@@ -25,7 +39,7 @@
   font-size: 75px;
   font-weight: 600;
   line-height: 1;
-  margin: 1.25rem 0;
+  margin-bottom: 1.25rem;
   animation: animationHide 1.4s ease-out;
   position: relative;
 }
@@ -73,4 +87,19 @@
 
 .btn:hover svg {
   transform: translateX(4px);
+}
+
+@keyframes animationHide {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  60% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

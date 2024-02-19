@@ -1,5 +1,4 @@
 import styles from "./contentInfo.module.css";
-
 import { FaArrowRightLong } from "react-icons/fa6";
 import Bubble from "../../layout/Bubble";
 
@@ -7,9 +6,6 @@ export default function ContentInfo() {
   return (
     <div className={styles.infoBanner}>
       <Bubble />
-      <h5>
-        Elos <span>Educação</span>
-      </h5>
       <h1>
         Projeto Social <span>Educacional</span>
       </h1>
