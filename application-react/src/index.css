@@ -26,6 +26,16 @@
   --bg-gray: #d7e8f8;
 }
 
+*::before,
+*::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
